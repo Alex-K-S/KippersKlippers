@@ -37,6 +37,7 @@ font-size: 1.7rem;
 width: 300%;
 height: 4.3rem;
 text-align: left;
+border-radius: .5rem;	
 }
 
 .contact .row form .box::placeholder{
