@@ -53,6 +53,14 @@ text-align: left;
 	resize: none;
 }
 
+.contact .row form .btn {
+	font-size: 1.3rem;
+	border-radius: 3.2rem;
+	margin-top: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
 #footerinfo{
     margin: 0 auto;
 }
