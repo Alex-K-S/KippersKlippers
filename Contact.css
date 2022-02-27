@@ -6,22 +6,51 @@ h3 {
 	text-align: center;
 }
 
-#contactBox{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
+.contact .row{	
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+width: 45%;
 }
 
-#clientInfo{
-	padding-bottom: 2%;
+.contact .row .content{
+flex: 30rem;
+padding: 4rem;
+padding-bottom: 0;
 }
 
-#inputBox{
-	overflow: scroll;
-	resize: both;
-	height: 500px;
-	width: 300px;
+.contact .row form{	
+flex: 45rem;
+padding: 2rem;
+margin: 2rem;
+margin-bottom: 4rem;	
+}
+
+.contact .row form .box{	
+color: #333;	
+padding: 1rem;
+margin: 1rem;
+background: #fff;
+text-transform: none;
+font-size: 1.7rem;	
+width: 300%;
+height: 4.3rem;
+text-align: left;
+}
+
+.contact .row form .box::placeholder{
+	text-transform: capitalize;
+	color: #333;
+	text-align: left;
+	font-size: 1.2rem;
+
+
+}
+
+.contact .row form .message{
+	height: 10rem;
+	resize: none;
 }
 
 #footerinfo{
