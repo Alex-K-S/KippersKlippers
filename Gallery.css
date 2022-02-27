@@ -1,0 +1,28 @@
+﻿img {
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	height: 300px;
+	width: 400px;
+	cursor: pointer;
+}
+
+#galleryGrid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a.linkHover {
+	color:blue; 
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .5s;
+}
+a.linkHover:hover {
+	text-decoration: underline;
+	background-color: gold;
+}
