@@ -37,6 +37,7 @@ body {
 
 .serviceContent1
 {
+    text-shadow: black 0.1em 0.1em 0.2em; 
     color: #fff;
     float: left;
     font-family: Garamond;
