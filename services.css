@@ -32,6 +32,14 @@ body {
 
 }
 
+.serviceContent1 h2 {
+text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.serviceContent2 h2 {
+text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
 
 .serviceContent1
 {
